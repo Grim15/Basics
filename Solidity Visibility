@@ -1,0 +1,22 @@
+Visibility
+
+State Variables 
+
+Public - Accessible inside and outside the smart contract and also inheritable
+
+Internal - Accessible inside the smart contract and inheritable
+
+Private -  Only accessible inside the smart contract
+
+Functions 
+
+Public - Can be called outside the smart contract and be called by another function within the contract
+
+Private -  Cannot be called outside the smart contract but can be called by another function within the contract
+
+External - Can only be called outside the smart contract
+
+Internal - Can only be called inside the smart contract by another function
+ 
+
+
