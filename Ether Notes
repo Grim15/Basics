@@ -1,0 +1,60 @@
+Ether 
+
+1 wei = 1
+
+1 gwei = 1000000000 (9 zeros)
+
+1 ether = 1000000000000000000 (18 zeros)
+
+1000000000000000000 
+30000000000000000
+
+
+// Receive funds to the smart contract
+
+receive() external payable{} 
+
+// Check balance of the smart contract
+
+function checkbalance() public view returns (uint){
+	return address(this).balance;} 
+
+// Send ether 
+
+function transfer(address payable _to) public payable{
+	(bool sent, )
+
+Calldata type is cheaper to use than Memory type. (Gas optimization)
+
+
+
+1000000000000000000000000
+
+Contract
+-0x8A791620dd6260079BF849Dc5567aDC3F2FdC318
+
+  Token
++0x610178dA211FEF7D417bC0e6FeD39F05609AD788
+
+Dep contract
+0x67d269191c92Caf3cD7723F116c85e6E9bf55933
+
+When initially using transferfrom function in ERC20 funds must be approved
+
+approve(msg.sender, value being sent)
+
+after transferfrom is executed it subtracts the approved amt from the allowance.
+
+create a function that uses the contract address instead of the msg.sender in the approval() to modify the _allowance mapping which should allow the contract to interact with the funds being deposited.
+
+call vs delegatecall - call changes the called contracts state variables mean while, delegate call changes the calling contracts state variables.
+
+Net2Dev-Youtuber
+
+
+collateral=17500
+debt = 
+
+99.38
+
+
