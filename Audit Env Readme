@@ -1,0 +1,28 @@
+Building a Solidity Smart Contract Audit Environment
+
+mkdir “Foldername”
+
+##Clones the git repository to the directory
+git clone https://github.com/PatrickAlphaC/hardhat-security-fcc .
+
+python3 - -version
+pip3   - -version
+
+pip3 install solc-select
+
+solc-select install 0.8.7
+
+solc-select use 0.8.7
+
+pip3 install slither-analyzer
+
+##Check for slither installation
+slither - - help
+
+yarn
+
+yarn slither
+
+
+
+
