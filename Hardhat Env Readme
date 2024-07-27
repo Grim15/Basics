@@ -1,0 +1,20 @@
+Creating new environment in VSC for token development/testing
+
+Mkdir token-name
+
+cd to above dir
+
+npm init -> should generate package.json file
+
+npm i -- save-dev hardhat -> installs hardhat 
+
+npx hardhat 
+
+npm i @openzeppelin/contracts
+
+
+pragma solidity 0.6.12  - Only compiles with version 0.6.12
+pragma solidity ^0.6.12 - Compiles with version 0.6.12 and above
+pragma solidity >=0.4.0 <0.6.0 - Compiles with all versions between 0.4.0 and 0.6.0
+
+Yarn add @openzeppelin/contracts
