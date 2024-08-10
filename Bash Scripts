@@ -1,3 +1,7 @@
 Bash Scripts
- 
+
+##Manticore
 pyenv global 3.7 && eval "$(pyenv init --path)" && python3 -m pip install manticore 
+
+##VirtualEnvironments
+sudo python3 -m venv .venv && source .venv/bin/activate
